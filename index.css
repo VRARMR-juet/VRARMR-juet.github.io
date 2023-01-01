@@ -2,6 +2,7 @@
   margin: 0px;
   color: aliceblue;
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 html {
   margin: 0px;
