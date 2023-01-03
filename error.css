@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    color: aliceblue;
+    font-family: sans-serif;
+  }
+  html {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* * { border: 1px solid white; } */
+  
+  body{
+    background: #000;
+  }
+  
+  .poly1{
+    position: fixed;
+    left: -3%;
+    bottom: 40%;
+    z-index: -1;
+    width: 20%;
+  }
+  .poly2{
+    position: fixed;
+    left: 25%;
+    z-index: -1;
+    width: 10%;
+  }
+  .poly3{
+    position: fixed;
+    right: 6%;
+    bottom: 5%;
+    width: 25%;
+    z-index: -1;
+  }
+  
+  #cur_page{
+    text-decoration: underline solid aliceblue;
+    text-underline-offset: 0.5rem;
+  }
+  
+  /* Header Navbar */
+  .header{
+    z-index: 1;
+    position: static;
+    /* width: 100%; */
+    top: 0px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    font-size: 1.3rem;
+    padding: 10px 10px;
+    border-bottom: 1px solid aliceblue ;
+    border-radius: 0px;
+  }
+  
+  .header-inner a{
+    color: aliceblue;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+  
+  .header-inner a:hover{
+    text-decoration: underline solid aliceblue;
+    text-underline-offset: 0.7rem;
+  }
+  
+  .header img{
+    width: 50px;
+  }
+  
+  .header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header div p{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 550;
+  }
+  
+ .page{
+    margin-top: 17rem;
+    margin-left: 25rem;
+    word-spacing: 1rem;
+ }
+  
