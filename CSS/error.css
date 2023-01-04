@@ -1,0 +1,57 @@
+/* SVG animation */
+.svg_box{
+    height:500px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+.svg{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+    margin-top:10%;
+}
+
+.large_rotate{
+    position:absolute;
+    animation: rotate_svg 6s infinite ;
+    animation-timing-function: linear;
+    transform-origin: 50% 50%;
+    transform-box:fill-box;
+}
+
+.small_rotate{
+    animation: rotate_svg_neg 4s infinite ;
+    animation-timing-function: linear;
+    transform-origin:50% 50%;
+    transform-box:fill-box;
+}
+
+@keyframes rotate_svg {
+    from{
+        transform:rotateZ(0);
+    }
+    to{
+        transform:rotateZ(360deg);
+    }
+}
+@keyframes rotate_svg_neg {
+    from{
+        transform:rotateZ(0deg);
+    }
+    to{
+        transform:rotateZ(-360deg);
+    }
+}
+
+.svg_content{
+    display: flex;
+    justify-content: center;
+}
+
+.svg_content p{
+    font-family: satoshi;
+    font-size: 1.4rem;
+}
