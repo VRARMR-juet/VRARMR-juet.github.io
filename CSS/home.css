@@ -165,14 +165,69 @@
 
 @media only screen and (max-width: 600px) {
 
-    .header img {
-        width: 30px;
+    /* Style the navigation menu */
+    .topnav {
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
     }
 
-    .header div p {
-        padding: 10px;
-        font-size: 15px;
+    .topnav div p {
+        padding: 0.625rem;
+        font-size: 0.938rem;
         font-weight: 550;
+    }
+
+    .topnav img {
+        width: 1.875rem;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 0.875rem 1.25rem;
+        text-decoration: none;
+        font-size: 1.563rem;
+        font-weight: bold;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav div {
+        display: flex;
+        flex-direction: row;
+        padding: 0.625rem;
+    }
+
+    .header {
+        z-index: 1;
+        position: static;
+        top: 0px;
+        background-color: #000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        font-size: 1.3rem;
+        padding: 0;
+        border-bottom: 1px solid aliceblue;
+        border-radius: 0px;
+    }
+
+    .header div {
+        display: none;
     }
 
     .header-inner {
@@ -311,6 +366,11 @@
 }
 
 @media only screen and (min-width: 600px) {
+
+    /* Hide the navigation menu */
+    .topnav {
+        display: none;
+    }
 
     /* Landing Image */
     .land-image {
