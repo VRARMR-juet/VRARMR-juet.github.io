@@ -4,6 +4,11 @@
   font-family: sans-serif;
   overflow-x: hidden;
 }
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   margin: 0px;
   padding: 0px;

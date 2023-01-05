@@ -1,9 +1,17 @@
 /* * { border: 1px solid white; } */
 
 /* Landing Image */
-.land-image {
+/* .land-image {
     width: 60%;
-    margin-left: 20%;
+    /* margin-left: 20%; 
+} */
+.land-image{
+    width: 100%;
+    text-align: center;
+}
+.land-image img{
+    margin: auto;
+    width: 60%;
 }
 
 /* Who We Are? */
@@ -137,7 +145,7 @@
 .ab-c {
     display: flex;
     flex-direction: row;
-    padding: 1rem 3rem;
+    padding: 3rem 3rem;
     margin: 10rem 4%;
     align-items: center;
     justify-content: center;
@@ -155,6 +163,7 @@
     line-height: 2.5.rem;
     margin: 1.2rem 0;
 }
+
 
 .ab-c img {
     width: 100%;
@@ -538,4 +547,14 @@
         border-radius: 36px;
         margin: 1rem;
     }
+
+.ab-c-img{
+    overflow: hidden;
+    width: 60%;
+    margin: 1rem;
+}
+.ab-c .ab-c-img a img{
+    max-width: 100%;
+    border-radius: 36px;
+
 }
