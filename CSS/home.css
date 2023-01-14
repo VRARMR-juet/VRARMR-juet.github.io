@@ -32,7 +32,7 @@
 }
 .land-image img{
     position: absolute;
-    width: 44rem;
+    width: 38rem;
 }
 
 /* Who We Are? */
@@ -90,7 +90,6 @@
     align-items: center;
     margin: 7rem 0rem;
 }
-
 .card{
     background: linear-gradient(180deg, #0D9C81 14.18%, rgba(76, 21, 203, 0.13) 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -100,6 +99,30 @@
     height: 100%;
     display: flex;
     justify-content: center;
+    
+}
+@media(width < 750px){
+    .card-container{
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 7rem 0rem;
+    }
+    .card{
+        background: linear-gradient(180deg, #0D9C81 14.18%, rgba(76, 21, 203, 0.13) 100%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(14px);
+        border-radius: 34px;
+        width: 75%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3vh;
+    }
 }
 .card *{
     text-align: center;
@@ -169,6 +192,7 @@
     justify-content: space-evenly;
     background: linear-gradient(180deg, #0D9C81 0%, rgb(26, 9, 66) 90%, rgb(9, 3, 22) 100%);
     border-radius: 21px;
+    width: 90%;
 }
 .ab-c-txt{
     width: 100%;
@@ -241,7 +265,7 @@ button:active .button_top {
     .whoweare{
         justify-content: center;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr ;
         gap: 1rem;
     }
     .whoweare-inner{
@@ -251,8 +275,60 @@ button:active .button_top {
     .box{
         display: none;
     }
+    
+}
+@media (width <= 750px) {
+.card{
+    overflow-y: scroll;
+}
+.card-container{
+    overflow-y: scroll;
+}
+body {
+    padding-right: 0px;
+}
+}
+@media (685px <=width <850px) {
+    html {
+      font-size: 10px;
+    }
+    
+    .land-image{
+        z-index: 0;
+    }
+  }
+  @media (width <= 750px)  {
+    .whoweare{
+        justify-content: center;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+    }
     .ab-c{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
+        width: 280px;
+    }
+    .contrib{
+        width: auto;
+        padding: 0.75em;
+    }
+    .footer{
+        left: -10px;
+        width: 350px;
+    }
+    .dom{
+        padding: 0.75em;
+        width: 280px;
+    }
+    .dwo{
+        width: 280px;
+    }
+    .whoweare-inner{
+        width: 330px;
+    }
+}
+@media (width < 750px){
+    .ab-c{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 }

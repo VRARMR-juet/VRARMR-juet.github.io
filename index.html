@@ -15,7 +15,7 @@
 <link rel="icon" href="./assets/icon.png" type="image/icon type">
 <link rel="stylesheet" href="./index.css">
 <link rel="stylesheet" href="./CSS/home.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <img class="poly1" src="./assets/Polygon 1.png" alt="">
@@ -27,6 +27,11 @@
       <img src="./assets/logo.png" alt="Club Logo">
       <p>VRARMR@JUET</p>
     </div>
+  </a>
+  <a href="#" class="toggle_button">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
   </a>
   <section class="header-inner">
     <a id="cur_page" href="./index.html">Home</a>
@@ -61,8 +66,8 @@
   </section>
   <!-- ARVRMR Cards -->
   <section class="card-container">
-    <span class="card">
-      <div>
+    <div class="card">
+      <div id="d1">
         <h2>
           VR
         </h2>
@@ -70,9 +75,9 @@
           Virtual World Expirienced via VR Headsets. Nothing is Real.
         </p>
       </div>
-    </span>
-    <span class="card">
-      <div>
+    </div>
+    <div class="card">
+      <div id="d2">
         <h2>
           AR
         </h2>
@@ -80,9 +85,9 @@
           Virtual Models are augmented over the real world using camera and a display to mimic the fact that it actually is present there.
         </p>
       </div>
-    </span>
-    <span class="card">
-      <div>
+    </div>
+    <div class="card">
+      <div id="d3">
         <h2>
           MR
         </h2>
@@ -90,8 +95,9 @@
           The concept of AR, Just more advanced and interactable.
         </p>
       </div>
-    </span>
-  </section>
+    </div>
+  </section> 
+ 
   <!-- Domains offered -->
   <section class="dwo">
     <H2>DOMAINS WE OFFER</H2>
@@ -157,5 +163,6 @@
   </div>
 </footer>
 <img class=bot-img src="./assets/Foot.png" alt="">
+<script src="./script.js"></script>
 </body>
 </html>
