@@ -1,6 +1,6 @@
-# INTANGIBLE
+# VRARMR
 
-This is a Student's Club at Jaypee University of Engineering and Technology, and a part of Development and Inovation Center. Here at [INTANGLIBLE](#), we aim to be as innovative as possible and make the most use of the latest Emerging Technologies
+This is a Student's Club at Jaypee University of Engineering and Technology, and a part of Development and Inovation Center. Here at [VRARMR](#), we aim to be as innovative as possible and make the most use of the latest Emerging Technologies
 
 ## What We specialize in:
 - Augmented Reality - AR is the technology used to augment different objects such as 3D models or animated objects over the real Environment (Reality)
