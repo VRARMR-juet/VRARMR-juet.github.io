@@ -1,161 +1,45 @@
-.pic{
-    background-image: url("../../assets/about/prof-imgs/gen-prof-img.png");
-    /* background-color: #b0edee; */
-    /* filter: blur(5px); */
 
-}
-.fac-adv .pic{
-    background-image: url("../../assets/about/prof-imgs/adv/fac-adv.jpeg");
-}
-.fac-adv .github{
-    display: none;
-}
-.adv-1 .pic{
-    background-image: url("../../assets/about/prof-imgs/adv/adv-1.jpg");
-}
-.adv-2 .pic{
-    background-image: url("../../assets/about/prof-imgs/adv/adv-2.jpg");
-}
-.x201B332 .pic{
-    background-image: url("../../assets/about/prof-imgs/3rd/201B332.jpg");
-}
-.x201B307 .pic{
-    background-image: url("../../assets/about/prof-imgs/3rd/201B307.jpg");
-}
-.x201B309 .pic{
-    background-image: url("../../assets/about/prof-imgs/3rd/201B309.jpg");
-}
-.x201B353 .pic{
-    background-image: url("../../assets/about/prof-imgs/3rd/201B353.jpg");
-}
-.x201B353 .github{
-    display: none;
-}
-.x211B420 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B420.jpg");
-}
-.x211B356 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B356.jpg");
-}
-.x211B356 .linkedin{
-    display: none;
-}
-.x211B206 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B206.jpg");
-}
-.x211B264 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B264.jpg");
-}
-.x211B087 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B087.jpg");
-}
-.x211B404 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B404.jpg");
-}
-.x211B412 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B412.jpg");
-}
-.x211B090 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B090.jpg");
-}
-.x211B090 .github{
-    display: none;
-}
-.x211B231 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B231.jpg");
-}
-.x211B286 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B286.jpg");
-}
-.x211B428 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B428.jpeg");
-}
-.x211B428 .github{
-    display: none;
-}
-.x211B395 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B395.jpg");
-}
-.x201B343 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/201B343.jpg");
-}
-.x211B300 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B300.jpg");
-}
-.x211B397 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B397.jpg");
-}
-.x211B235 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B235.jpg");
-}
-.x211b237 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B237.jpg");
-}
-.x211B399 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B399.jpeg");
-}
-.x211B399 .github{
-    display: none;
-}
-.x211b187 .pic{
-    background-image: url("../../assets/about/prof-imgs/2nd/211B187.jpg");
+/* Default placeholder image for members without a photo */
+.pic {
+  background-image: url("../../assets/about/prof-imgs/gen-prof-img.png");
+  background-size: cover;
+  background-position: center;
 }
 
-/* volunteers */
-.x221B422 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B422.jpg");
+
+
+/* Advisors */
+.adv-1 .pic {
+  background-image: url("../../assets/about/prof-imgs/prof-imgs/Vikas.jpg");
 }
-.x221B469 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B469.jpg");
+.adv-2 .pic {
+  background-image: url("../../assets/about/prof-imgs/prof-imgs/Anchit\ Dixit.jpeg");
 }
-.x221B442 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B442.jpg");
+
+/* Secretaries */
+.xdivya-jain .pic {
+  background-image: url("../../assets/about/prof-imgs/prof-imgs/divyajain.jpeg");
 }
-.x221B407 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B407.jpg");
+.xpiyush-singh .pic {
+  background-image: url("../../assets/about/prof-imgs/prof-imgs/Piyush Kumar singh.jpeg");
 }
-.x221B407 .linkedin{
-    display: none;
+.xkavya-singhal .pic {
+  background-image: url("../../assets/about/prof-imgs/prof-imgs/kavyasinghal.jpg");
 }
-.x221B145 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B145.jpg");
+.xkavya-agarwal .pic {
+  background-image: url("../../assets/about/prof-imgs/prof-imgs/Kavya Agarwal.jpg");
 }
-.x221B478 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B478.png");
+.xsiddhant .pic {
+  background-image: url("../../assets/about/prof-imgs/prof-imgs/Siddhant Vashisth.png");
 }
-.x221A007 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221A007.jpg");
+
+/* Visibility adjustments */
+.x201B353 .github,
+.x211B428 .github,
+.x211B399 .github {
+  display: none;
 }
-.x221A007 .github{
-    display: none;
-}
-.x221B363 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B363.jpg");
-}
-.x221B065 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B065.jpg");
-}
-.x221B411 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B411.jpg");
-}
-.x221B411 .linkedin{
-    display: none;
-}
-.x221A002 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221A002.jpg");
-}
-.x221B158 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B158.jpeg");
-}
-.x221B476 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B476.jpg");
-}
-.x221B276 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B276.jpg");
-}
-.x221B328 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B328.jpg");
-}
-.x221B116 .pic{
-    background-image: url("../../assets/about/prof-imgs/1st/221B116.jpg");
+
+.x211B356 .linkedin {
+  display: none;
 }
