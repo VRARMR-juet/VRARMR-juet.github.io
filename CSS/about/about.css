@@ -1,220 +1,284 @@
 /* *{ border: 1px white solid;} */
 
-/* video */
-.top{
-    width: fit-content;
-    margin: 5rem auto;
-    display: grid;
-    grid-auto-flow: row;
-    place-content: center center;
-    gap: 2rem;
-}
-.top h2{
-    font-size: 6rem;
-    font-weight: 200;
-    text-transform: uppercase;
-}
-.vid-container{
-    padding: 2rem;
-    margin: auto;
-    width: 90vw;
-    background: #55BEC0;
-    
-    border-radius: 10px;
-}
-.vid{
-    margin: auto;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    width: 60vw;
+/* ---------------------- */
+/* Video Section          */
+/* ---------------------- */
+.top {
+  width: fit-content;
+  margin: 5rem auto;
+  display: grid;
+  grid-auto-flow: row;
+  place-content: center;
+  gap: 2rem;
 }
 
-/* seperator */
-.foot-img{
+.top h2 {
+  font-size: 6rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.vid-container {
+  padding: 2rem;
+  margin: auto;
+  width: 90vw;
+  background: #55BEC0;
+  border-radius: 10px;
+}
+
+.vid {
+  margin: auto;
+  width: 60vw;
+  box-shadow:
+    rgba(0, 0, 0, 0.4) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* ---------------------- */
+/* Separator              */
+/* ---------------------- */
+.foot-img {
   display: flex;
   width: 20vw;
   margin: auto;
 }
 
-/* teams */
-.team{
+/* ---------------------- */
+/* Team Section           */
+/* ---------------------- */
+.team {
   background: #b0edee;
   margin: 5rem auto;
   padding: 2.5%;
 }
-.team *{
-    color: black;
-}
-.team h1{
-    font-size: 4rem;
-    font-weight: 400;
-    text-align: center;
-    letter-spacing: 0.255em;
-    text-transform: uppercase;
-}
-.team .dom{
-    display: flex;
-    flex-direction: column;
-    margin: 2rem auto;
-    --unit-distance: 1rem;
-    gap: var(--unit-distance);
-}
-.team .dom h2{
-    font-size: 3rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    text-align: center;
-}
-.leads{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: fit-content;
-    margin: auto;
-    justify-content: center;
-    gap: var(--unit-distance);
-}
-.members{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    width: fit-content;
-    margin: auto;
-    justify-content: center;
-    gap: var(--unit-distance);
-}
-.team .profile{
-    width: min-content;
-}
-.team .profile .pic-container{
-    --pic-height: 15.625rem;
-    /* --pic-width: 12.5rem; */
-    aspect-ratio: 4 / 5;
-    position: relative;
-    height: var(--pic-height);
-    width: var(--pic-width);
-    left: 0px;
-    top: 0px;
-    border-radius: 5px;
-    padding: var(--unit-distance);
-    background-color: #55bec0;  
-    contain: strict;
-}
-.volunteers .dom .members .profile .pic-container{
-    --pic-height: 12rem;
-}
-.pic-container .pic{
-    transition: 0.3s;
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: var(--unit-distance);
-}
-.pic-container .cover{
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
-    height: 0px;
-    background: rgba(217, 217, 217, 0.42);
-    backdrop-filter: blur(10px);
-    box-shadow: rgba(28, 35, 71, 0.25) 0px 30px 60px -12px inset, rgba(28, 35, 71, 0.3) 0px 18px 36px -18px inset;
-    transition: 0.3s;
+
+.team * {
+  color: black;
 }
 
-.slide.pic-container:hover > .cover{
-    height: 100%;
-}
-.pic-container .links{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    transition: 0.2s;
-}
-.pic-container .links .link{
-    height: 50%;
-}
-.slide.pic-container:hover > .links{
-    transform: translateY(-100%);
+.team h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.255em;
+  text-transform: uppercase;
 }
 
-.pic-container .links{
-    display: grid;
-
-}
-.profile p{
-    text-align: center;
-    text-transform: uppercase;
-    margin: calc(var(--unit-distance) / 2.5) 0.5rem;
-}
-.profile .name{
-    font-size: 1.5rem;
-    font-weight: 500;
-    word-wrap: break-word;
-}
-.profile .desig{
-    font-size: 1.3rem;
-    font-weight: 400;
-}
-.volunteers .dom .members .profile .name{
-    font-size: 1.3rem;
-}
-.volunteers .dom .members .profile .desig{
-    font-size: 1.15rem;
+.team .dom {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  gap: 1rem;
 }
 
-@media (685px < width <=850px) {
+.team .dom h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
 
-    .top{
-        margin:5rem 1rem;
-    }
+.leads,
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  margin: auto;
+  justify-content: center;
+  gap: 1rem;
+}
 
-    .top h2{
-        font-size:5rem;
-        text-align:center;
-    }
+.members {
+  flex-wrap: wrap-reverse;
+}
 
-    .vid-container{
-        border-radius:5px;
-        width:90vw;
-    }
+.team .profile {
+  width: min-content;
+}
 
-    .vid{
-        width:90vw;
-    }
+.team .profile .pic-container {
+  --pic-height: 15.625rem;
+  aspect-ratio: 4 / 5;
+  position: relative;
+  height: var(--pic-height);
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #55bec0;
+  contain: strict;
+}
 
-    .team .dom{
-        margin:5rem 1rem;
-    }
 
+
+/* Profile pictures */
+.pic-container .pic {
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background: center / cover no-repeat;
+  margin-bottom: 1rem;
+}
+
+/* Hover cover overlay */
+.pic-container .cover {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background: rgba(217, 217, 217, 0.42);
+  backdrop-filter: blur(10px);
+  box-shadow:
+    rgba(28, 35, 71, 0.25) 0px 30px 60px -12px inset,
+    rgba(28, 35, 71, 0.3) 0px 18px 36px -18px inset;
+  transition: 0.3s;
+}
+
+.slide.pic-container:hover > .cover {
+  height: 100%;
+}
+
+/* Links overlay */
+.pic-container .links {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  z-index: 1;
+  transition: 0.2s;
+}
+
+.pic-container .links .link {
+  height: 50%;
+}
+
+.slide.pic-container:hover > .links {
+  transform: translateY(-100%);
+}
+
+/* Text below profile */
+.profile p {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0.4rem 0.5rem;
+}
+
+.profile .name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.profile .desig {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+
+
+/* ---------------------- */
+/* Responsive Design      */
+/* ---------------------- */
+
+/* Tablets */
+@media (685px < width <= 850px) {
+  .top {
+    margin: 5rem 1rem;
   }
-  
-@media (width<=685px) {
 
-    .top h2{
-        text-align:center;
-    }
-
-    .vid-container{
-        border-radius:5px;
-    }
-
-    .vid{
-        max-width:100vw;
-        width:90vw;
-    }
-
-    .team .profile .pic-container{
-        --pic-height:11rem;
-    }
-
-    .volunteers .dom .members .profile .pic-container{
-        --pic-height: 10rem;
-    }
+  .top h2 {
+    font-size: 5rem;
+    text-align: center;
   }
+
+  .vid-container {
+    border-radius: 5px;
+    width: 90vw;
+  }
+
+  .vid {
+    width: 90vw;
+  }
+
+  .team .dom {
+    margin: 5rem 1rem;
+  }
+}
+
+/* Mobiles */
+@media (width <= 685px) {
+  .top h2 {
+    text-align: center;
+  }
+
+  .vid-container {
+    border-radius: 5px;
+  }
+
+  .vid {
+    max-width: 100vw;
+    width: 90vw;
+  }
+
+  .team .profile .pic-container {
+    --pic-height: 11rem;
+  }
+
+  .volunteers .dom .members .profile .pic-container {
+    --pic-height: 10rem;
+  }
+}
+* Additional styles for the new team structure */
+
+.team .dom {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  gap: 3rem; /* Increased gap between sections */
+}
+
+.team .dom h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Secretaries section layout */
+.secretaries-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.secretaries-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  margin: auto;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.joint-secretaries {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  margin: auto;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Ensure advisors section uses existing leads styling */
+.advisors .leads {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  margin: auto;
+  justify-content: center;
+  gap: 1rem;
+}
