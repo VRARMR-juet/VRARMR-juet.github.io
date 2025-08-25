@@ -1,478 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERSG29STZJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ERSG29STZJ');
+  </script>
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERSG29STZJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ERSG29STZJ');
-</script>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teams</title>
-    <meta name="author" content="VRARMR@JUET">
-    <meta name="description" content="A part of our Development and innovation centre">
-    <meta name="description" content="At the AR/VR/MR club,we are dedicated to pushing the envelope when it comes to bleeding edge technology.At our club we believe in creating a conducive environment for our members to let their creativity take the centre stage helping bridge the gap between industry and academia.The combination of teamwork,tenacity,passion and ability to think outside of the  box is what seperates our club from others.">
-    <meta name="keywords" content="Augmented Reality, Virtual Reality, Mixed Reality, AR, VR, MR, HTML, CSS, JavaScript, icons, VRARMR, JUET, Jaypee University of Engineering and Technology">
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400&display=swap" rel="stylesheet">
-    <link rel="icon" href="../assets/icon.png">
-    <link rel="stylesheet" href="../index.css">
-    <link rel="stylesheet" href="../CSS/about/about.css">
-    <link rel="stylesheet" href="../CSS/about/members.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teams</title>
+  <meta name="author" content="VRARMR@JUET">
+  <meta name="description" content="At the AR/VR/MR club, we push the boundaries of AR, VR, and MR technology, bridging industry and academia through innovation, teamwork, and creativity.">
+  <meta name="keywords" content="Augmented Reality, Virtual Reality, Mixed Reality, AR, VR, MR, HTML, CSS, JavaScript, icons, VRARMR, JUET, Jaypee University of Engineering and Technology">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400&display=swap" rel="stylesheet">
+  <link rel="icon" href="../assets/icon.png">
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="../CSS/about/about.css">
+  <link rel="stylesheet" href="../CSS/about/members.css">
 </head>
 <body>
-    <header class="header">
-        <a href="../index.html">
-          <div>
-            <img src="../assets/logo.png" alt="Club Logo">
-            <p>VRARMR Community@JUET</p>
-          </div>
-        </a>
-        <a href="#" class="toggle_button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-        <section class="header-inner">
-          <a href="../index.html">Home</a>
-          <a href="./projects.html">Projects</a>
-          <a href="./events.html">Events</a>
-          <a href="./tachyon.html">Tachyon</a>
-          <a href="./blogs.html">Blogs</a>
-          <a id="cur_page" href="./about.html">About Us</a>
-        </section>
-    </header>
-    <main>
-      <div class="top">
-        <h2>Our Lab</h2>
-        <div class="vid-container">
-          <center>
-            <video class="vid" loop controls poster="../assets/about/vid-thumb.png">
-                <source src="../assets/about/Orientation.mp4" type="video/mp4">
-                Your browser is incompatible to show this content.
-            </video>
-          </center>
-        </div>
+  <!-- HEADER -->
+  <header class="header">
+    <a href="../index.html">
+      <div>
+        <img src="../assets/logo.png" alt="VRARMR Club Logo">
+        <p>VRARMR Community@JUET</p>
       </div>
-      <img class="foot-img" src="../assets/Polygon 3.png" alt="">
-      <div class="team">
-        <h1>Meet Our Team</h1>
-        <div class="dom">
-          <section class="leaders">
+    </a>
+    <a href="#" class="toggle_button" aria-label="Toggle navigation menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <section class="header-inner">
+      <a href="../index.html">Home</a>
+      <a href="./projects.html">Projects</a>
+      <a href="./events.html">Events</a>
+      <a href="./tachyon.html">Tachyon</a>
+      <a href="./blogs.html">Blogs</a>
+      <a id="cur_page" href="./about.html">About Us</a>
+    </section>
+  </header>
 
-              <!-- Leader -->
-              <h2>Leaders</h2>
-              <div class="leads">
-                <!-- Faculty Advisor -->
-                <div class="profile">
-                  <div class="pic-container slide fac-adv">
-                    <div class="pic fac-adv"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="https://www.linkedin.com/in/nileshkumar-patel-06a27a1a/">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Dr. Nilesh patel</p>
-                  <p class="desig">Faculty Advisor</p>
-                </div>
+  <!-- MAIN -->
+  <main>
+    <!-- LAB SECTION -->
+    <div class="top">
+      <h2>Our Lab</h2>
+      <div class="vid-container">
+        <center>
+          <video class="vid" loop controls poster="../assets/about/vid-thumb.png">
+            <source src="../assets/about/Orientation.mp4" type="video/mp4">
+            Your browser is incompatible to show this content.
+          </video>
+        </center>
+      </div>
+    </div>
 
-                <!-- Alma mater -->
-                <div class="profile">
-                  <div class="pic-container slide adv-1">
-                    <div class="pic adv"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="https://github.com/NarendraKumarJha1">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="https://www.linkedin.com/in/narendrakumarjha/">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Narendra Jha</p>
-                  <p class="desig">Alma mater</p>
-                </div>
-                <!-- Alma mater -->
-                <div class="profile">
-                  <div class="pic-container slide adv-2">
-                    <div class="pic adv"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Ayush Jain</p>
-                  <p class="desig">Alma mater</p>
-                </div>
-                <!-- advisor -->
-                <div class="profile">
-                  <div class="pic-container slide x201B332">
-                    <div class="pic"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="https://github.com/Stark-Mark-1" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="https://www.linkedin.com/in/utkarshrai22" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Utkarsh Rai</p>
-                  <p class="desig">Advisor</p>
+    <img class="foot-img" src="../assets/Polygon 3.png" alt="Polygon design" loading="lazy">
+
+    <!-- TEAM SECTION -->
+    <div class="team">
+      <h1>Meet Our Team</h1>
+      <div class="dom">
+        
+        <!-- ADVISORS SECTION -->
+        <section class="advisors">
+          <h2>Advisors</h2>
+          <div class="leads">
+            <!-- Advisor 1 -->
+            <div class="profile">
+              <div class="pic-container slide adv-1">
+                <div class="pic adv"></div>
+                <div class="cover"></div>
+                <div class="links">
+                  <a class="link github" href="https://github.com/vickeymadhukar" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                    <img src="../assets/about/prof-imgs/github.svg" alt="GitHub" loading="lazy">
+                  </a>
+                  <a class="link linkedin" href="https://www.linkedin.com/in/vikas-madhukar-87a212243/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                    <img src="../assets/about/prof-imgs/linkedIn.svg" alt="LinkedIn" loading="lazy">
+                  </a>
                 </div>
               </div>
-              <div class="members">
-                <!-- Advisor -->
-                <div class="profile">
-                  <div class="pic-container slide x201B307">
-                    <div class="pic "></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="https://github.com/we-kash" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="https://www.linkedin.com/in/vikash-saxena-11a253176/" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Vikash Saxena</p>
-                  <p class="desig">advisor</p>
-                </div>
-              </div>
+              <p class="name">Vikas Kumar Madhukar</p>
+              <p class="desig">Advisor</p>
             </div>
-          </section>
-          <div class="teams">
-            <!-- Unity Development -->
-            <div class="dom">
-              <h2>UNITY Development</h2>
-              <div class="leads">
-                <!-- secretary -->
-                <div class="profile">
-                  <div class="pic-container slide x211B356">
-                    <div class="pic"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="https://github.com/YashDVerma" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Yashdeep Verma</p>
-                  <p class="desig">secretary</p>
-                </div>
-              
-                 <!-- member -->
-                 <div class="profile">
-                  <div class="pic-container slide x221B116">
-                    <div class="pic"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="https://github.com/ayushmati2004" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="https://www.linkedin.com/in/ayush-mati" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">ayush mati</p>
-                  <p class="desig">member</p>
+
+            <!-- Advisor 2 -->
+            <div class="profile">
+              <div class="pic-container slide adv-2">
+                <div class="pic adv"></div>
+                <div class="cover"></div>
+                <div class="links">
+                  <a class="link github" href="https://www.linkedin.com/in/anchit-dixit/" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                    <img src="../assets/about/prof-imgs/github.svg" alt="GitHub" loading="lazy">
+                  </a>
+                  <a class="link linkedin" href="https://www.linkedin.com/in/anchit-dixit/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                    <img src="../assets/about/prof-imgs/linkedIn.svg" alt="LinkedIn" loading="lazy">
+                  </a>
                 </div>
               </div>
-            </div>  
-               <!-- Game Development -->
-              <div class="dom">
-                <h2>game Development</h2>
-                <!--lead -->
-                <div class="leads">
-                <div class="profile">
-                  <div class="pic-container slide x211B087">
-                    <div class="pic  "></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="https://github.com/ayushsonare" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="https://www.linkedin.com/in/ayush-sonare-55155221b" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Ayush Sonare</p>
-                  <p class="desig"> lead</p>
-                </div>
-                <!-- members -->
-                <div class="profile">
-                  <div class="pic-container x221B442">
-                    <div class="pic"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Vikas madhukar </p>
-                  <p class="desig">member</p>
-                </div>
-              
-               <!-- members -->
-               <div class="profile">
-                <div class="pic-container slide x221B328">
+              <p class="name">Anchit Dixit</p>
+              <p class="desig">Advisor</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECRETARIES SECTION -->
+        <section class="secretaries">
+          <h2>Secretaries</h2>
+          <div class="secretaries-section">
+            
+            <!-- Secretary and Deputy Secretary (Top Row) -->
+            <div class="secretaries-group">
+              <!-- Secretary -->
+              <div class="profile">
+                <div class="pic-container slide xdivya-jain">
                   <div class="pic"></div>
                   <div class="cover"></div>
                   <div class="links">
-                    <a class="link github" href="https://github.com/cakeeess" target="_blank">
-                      <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
+                    <a class="link github" href="https://github.com/divya28jain" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                      <img src="../assets/about/prof-imgs/github.svg" alt="GitHub" loading="lazy">
+                    </a>
+                    <a class="link linkedin" href="https://www.linkedin.com/in/divya-28-jain/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                      <img src="../assets/about/prof-imgs/linkedIn.svg" alt="LinkedIn" loading="lazy">
                     </a>
                   </div>
                 </div>
-                <p class="name">Samriddhi Tripathi </p>
-                <p class="desig">member</p>
+                <p class="name">Divya Jain</p>
+                <p class="desig">Secretary</p>
               </div>
-            </div>
-              </div>
-            <!-- j sec -->
-            <div class="dom">
-              <h2>3D-Modeling</h2>
-              <div class="leads">
-    
-                <!-- Leads -->
-                <div class="profile">
-                  <div class="pic-container slide x211B412">
-                    <div class="pic"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="https://github.com/K144U" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="https://www.linkedin.com/in/sankalp-pathak-524133231" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Sankalp Pathak</p>
-                  <p class="desig">joint secretary </p>
-                </div>
-    
-                <!-- Leads -->
-                <div class="profile">
-                  <div class="pic-container slide x211B090">
-                    <div class="pic"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="https://www.linkedin.com/in/bebandh-shrivastava-6263a524b" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Bebandh Shrivastava</p>
-                  <p class="desig">Lead </p>
-                </div>
-              </div>
-              <div class="members">
-                <!--j sec -->
-                <div class="profile">
-                  <div class="pic-container slide x211B286">
-                    <div class="pic"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="https://github.com/shambhavi023" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Shambhavi Agnihotri</p>
-                  <p class="desig">joint secretary</p>
-                </div>
-              </div>
-            </div>
-            <!-- Web-Dev -->
-            <div class="dom">
-              <h2>Web-Dev</h2>
-              <div class="leads">
-    
-                <!-- member -->
-                <div class="profile">
-                  <div class="pic-container slide x221B422">
-                    <div class="pic"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="https://github.com/utkarshhh1" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="https://www.linkedin.com/in/utkarsh-upadhyay-474866251" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Utkarsh Upadhyay</p>
-                  <p class="desig">member</p>
-                </div>
-                <!-- member -->
-                <div class="profile slide">
-                  <div class="pic-container slide x221B158">
-                    <div class="pic"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="https://github.com/EKLAVYA158" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="https://www.linkedin.com/in/eklavya-gautam-75a610253" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Eklavya Gautam</p>
-                  <p class="desig">member</p>
-                </div>
-                <!-- member -->
-                <div class="profile">
-                  <div class="pic-container slide x221B411 ">
-                    <div class="pic"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="https://github.com/Tanya7777" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Tanya Singh </p>
-                  <p class="desig">member</p>
-                </div>
-              <div class="members"></div>
-            </div>
-            <!-- UI/UX -->
-            <div class="dom">
-              <h2>UI/UX</h2>
-              <div class="leads">
-                
-                <!-- lead -->
-                <div class="profile">
-                  <div class="pic-container slide x211B300 ">
-                    <div class="pic  "></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="https://github.com/shrxddhx20" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="https://www.linkedin.com/in/shraddha-singh-92400322b" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Shraddha Singh</p>
-                  <p class="desig">Lead</p>
-                </div>
-                        <!-- Members -->
-                        <div class="profile">
-                          <div class="pic-container slide x221B065">
-                            <div class="pic"></div>
-                            <div class="cover"></div>
-                            <div class="links">
-                              <a class="link github" href="https://github.com/anchitdixit" target="_blank">
-                                <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                              </a>
-                              <a class="link linkedin" href="http://www.linkedin.com/in/anchit-dixit-4399961b3" target="_blank">
-                                <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                              </a>
-                            </div>
-                          </div>
-                          <p class="name">Anchit Dixit</p>
-                          <p class="desig">member</p>
-                        </div>
-    
-              </div>
-              <div class="members"></div>
-            </div>
-            
-            <!-- Management -->
-            <div class="dom">
-              <h2>Management</h2>
-              <div class="leads">
-                
-                <!-- Member -->
-                <div class="profile">
-                  <div class="pic-container slide x211B397">
-                    <div class="pic"></div>
-                    <div class="cover"></div>
-                    <div class="links">
-                      <a class="link github" href="https://www.linkedin.com/in/devansh-tripathi-b332a022b" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/github.svg" alt="">
-                      </a>
-                      <a class="link linkedin" href="https://www.linkedin.com/in/devansh-tripathi-b332a022b" target="_blank">
-                        <img height=100% src="../assets/about/prof-imgs/linkedIn.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                  <p class="name">Devansh Tripathi</p>
-                  <p class="desig">Lead</p>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="volunteers">
-            <div class="dom">
-              <h2>volunteers</h2>
-              <h3 style="text-align: center; font-size: 22px;">you could be the next!!..</h3>
-              <div class="members">
 
+              <!-- Deputy Secretary -->
+              <div class="profile">
+                <div class="pic-container slide xpiyush-singh">
+                  <div class="pic"></div>
+                  <div class="cover"></div>
+                  <div class="links">
+                    <a class="link github" href="https://github.com/CyberFranky05" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                      <img src="../assets/about/prof-imgs/github.svg" alt="GitHub" loading="lazy">
+                    </a>
+                    <a class="link linkedin" href="https://www.linkedin.com/in/piyush-singh-142911290/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                      <img src="../assets/about/prof-imgs/linkedIn.svg" alt="LinkedIn" loading="lazy">
+                    </a>
+                  </div>
+                </div>
+                <p class="name">Piyush Kumar Singh</p>
+                <p class="desig">Deputy Secretary</p>
+              </div>
             </div>
-          </section>
-      </div>
-      <div class="sponsor"></div>
-    </main>
-    <img class="foot-img" src="../assets/Polygon 3.png" alt="">
-    <footer class="footer">
-        <H2>REACH OUT TO US</H2>
-        <div class="container">
-          <div class="phone">
-            <a href="mailto:vermaanshu2010@gmail.com">Secretary : vermaanshu2010@gmail.com</a>
-            <a href="mailto:nilesh.patel@juetguna.in">Faculty Advisor : nilesh.patel@juetguna.in</a>
+
+            <!-- Joint Secretaries (Bottom Row) -->
+            <div class="joint-secretaries">
+              <!-- Joint Secretary 1 -->
+              <div class="profile">
+                <div class="pic-container slide xkavya-singhal">
+                  <div class="pic"></div>
+                  <div class="cover"></div>
+                  <div class="links">
+                    <a class="link github" href="https://github.com/tbhkavya" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                      <img src="../assets/about/prof-imgs/github.svg" alt="GitHub" loading="lazy">
+                    </a>
+                    <a class="link linkedin" href="https://www.linkedin.com/in/kavyasinghal/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                      <img src="../assets/about/prof-imgs/linkedIn.svg" alt="LinkedIn" loading="lazy">
+                    </a>
+                  </div>
+                </div>
+                <p class="name">Kavya Singhal</p>
+                <p class="desig">Joint Secretary</p>
+              </div>
+
+              <!-- Joint Secretary 2 -->
+              <div class="profile">
+                <div class="pic-container slide xkavya-agarwal">
+                  <div class="pic"></div>
+                  <div class="cover"></div>
+                  <div class="links">
+                    <a class="link github" href="https://github.com/kieeeeekkk" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                      <img src="../assets/about/prof-imgs/github.svg" alt="GitHub" loading="lazy">
+                    </a>
+                    <a class="link linkedin" href="https://www.linkedin.com/in/kavya-agarwal-14744b2b0" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                      <img src="../assets/about/prof-imgs/linkedIn.svg" alt="LinkedIn" loading="lazy">
+                    </a>
+                  </div>
+                </div>
+                <p class="name">Kavya Agarwal</p>
+                <p class="desig">Joint Secretary</p>
+              </div>
+
+              <!-- Joint Secretary 3 -->
+              <div class="profile">
+                <div class="pic-container slide xsiddhant">
+                  <div class="pic"></div>
+                  <div class="cover"></div>
+                  <div class="links">
+                    <a class="link github" href="https://github.com/sidvashisth2005" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                      <img src="../assets/about/prof-imgs/github.svg" alt="GitHub" loading="lazy">
+                    </a>
+                    <a class="link linkedin" href="https://www.linkedin.com/in/siddhant-vashisth-04887b29b/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                      <img src="../assets/about/prof-imgs/linkedIn.svg" alt="LinkedIn" loading="lazy">
+                    </a>
+                  </div>
+                </div>
+                <p class="name">Siddhant Vashisht</p>
+                <p class="desig">Joint Secretary</p>
+              </div>
+            </div>
           </div>
-          <hr>
-          <div class="socials">
-            <a href="https://github.com/AR-VR-MR-Student-Club" target="_blank"><img src="../assets/Socials/gh.svg" alt=""></a>
-            <a href="https://www.instagram.com/vr_ar_mr/" target="_blank"><img src="../assets/Socials/ig.svg" alt=""></a>
-            <a href="https://www.youtube.com/@vrarmrjuet897" target="_blank"><img src="../assets/Socials/yt.svg" alt=""></a>
-          </div>    
-        </div>
-    </footer>
-    <div class="bot-img"></div>
-    <script src="../index.js"></script>
+        </section>
+        
+      </div>
+    </div>
+  </main>
+
+  <img class="foot-img" src="../assets/Polygon 3.png" alt="Polygon design" loading="lazy">
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <h2>REACH OUT TO US</h2>
+    <div class="container">
+      <div class="phone">
+        <a href="mailto:jain28divya@gmail.com">Secretary: jain28divya@gmail.com</a>
+        <a href="mailto:dinesh.verma@juetguna.in">Faculty Advisor : dinesh.verma@juetguna.in</a>
+      </div>
+      <hr>
+      <div class="socials">
+        <a href="https://github.com/AR-VR-MR-Student-Club" target="_blank" rel="noopener noreferrer"><img src="../assets/Socials/gh.svg" alt="GitHub"></a>
+        <a href="https://www.instagram.com/vr_ar_mr/" target="_blank" rel="noopener noreferrer"><img src="../assets/Socials/ig.svg" alt="Instagram"></a>
+        <a href="https://www.youtube.com/@vrarmrjuet897" target="_blank" rel="noopener noreferrer"><img src="../assets/Socials/yt.svg" alt="YouTube"></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="bot-img"></div>
+
+  <!-- SCRIPTS -->
+  <script src="../index.js" defer></script>
 </body>
 </html>
